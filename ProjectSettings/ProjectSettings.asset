@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
+<<<<<<< HEAD
   productGUID: 720a960cae725c742abcbd94f8beb81c
+=======
+  productGUID: 36151e6c01183fc4ca5b7ddfb522a2b4
+>>>>>>> cb8042abeefc436d033e301e6e859031bbb57527
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +17,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+<<<<<<< HEAD
   productName: STLproject2
+=======
+  productName: STL2 project
+>>>>>>> cb8042abeefc436d033e301e6e859031bbb57527
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -48,6 +56,10 @@ PlayerSettings:
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 0
+<<<<<<< HEAD
+=======
+  unsupportedMSAAFallback: 0
+>>>>>>> cb8042abeefc436d033e301e6e859031bbb57527
   m_SpriteBatchVertexThreshold: 300
   m_MTRendering: 1
   mipStripping: 0
@@ -75,6 +87,10 @@ PlayerSettings:
   androidMinimumWindowWidth: 400
   androidMinimumWindowHeight: 300
   androidFullscreenMode: 1
+<<<<<<< HEAD
+=======
+  androidAutoRotationBehavior: 1
+>>>>>>> cb8042abeefc436d033e301e6e859031bbb57527
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
   runInBackground: 1
@@ -135,6 +151,11 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
+<<<<<<< HEAD
+=======
+  visionOSBundleVersion: 1.0
+  tvOSBundleVersion: 1.0
+>>>>>>> cb8042abeefc436d033e301e6e859031bbb57527
   bundleVersion: 0.1
   preloadedAssets: []
   metroInputSource: 0
@@ -147,6 +168,10 @@ PlayerSettings:
   isWsaHolographicRemotingEnabled: 0
   enableFrameTimingStats: 0
   enableOpenGLProfilerGPURecorders: 1
+<<<<<<< HEAD
+=======
+  allowHDRDisplaySupport: 0
+>>>>>>> cb8042abeefc436d033e301e6e859031bbb57527
   useHDRDisplay: 0
   hdrBitDepth: 0
   m_ColorGamuts: 00000000
@@ -400,7 +425,11 @@ PlayerSettings:
   switchSocketConcurrencyLimit: 14
   switchScreenResolutionBehavior: 2
   switchUseCPUProfiler: 0
+<<<<<<< HEAD
   switchUseGOLDLinker: 0
+=======
+  switchEnableFileSystemTrace: 0
+>>>>>>> cb8042abeefc436d033e301e6e859031bbb57527
   switchLTOSetting: 0
   switchApplicationID: 0x01004b9000490000
   switchNSODependencies: 
@@ -530,7 +559,10 @@ PlayerSettings:
   switchSocketBufferEfficiency: 4
   switchSocketInitializeEnabled: 1
   switchNetworkInterfaceManagerInitializeEnabled: 1
+<<<<<<< HEAD
   switchPlayerConnectionEnabled: 1
+=======
+>>>>>>> cb8042abeefc436d033e301e6e859031bbb57527
   switchUseNewStyleFilepaths: 1
   switchUseLegacyFmodPriorities: 0
   switchUseMicroSleepForYield: 1
@@ -672,14 +704,22 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
+<<<<<<< HEAD
   metroPackageName: STLproject2
+=======
+  metroPackageName: STL2 project
+>>>>>>> cb8042abeefc436d033e301e6e859031bbb57527
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
+<<<<<<< HEAD
   metroApplicationDescription: STLproject2
+=======
+  metroApplicationDescription: STL2 project
+>>>>>>> cb8042abeefc436d033e301e6e859031bbb57527
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
