@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e00434e873503ce4a92df9a78057a5a0
+guid: d5d2e6fef120d27479ae3cad5051cfb7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,589 +123,673 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_0
+      name: OrangeRobot_SpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 31
-        height: 80
+        x: 5
+        y: 127
+        width: 19
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c16f73a3c4cb2514cbbf67a8ec3d8003
-      internalID: -1845214302
+      spriteID: f23fb3faca75f5247b7d49b0b3fe0559
+      internalID: -490754401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_1
+      name: OrangeRobot_SpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 60
-        height: 80
+        x: 37
+        y: 127
+        width: 20
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e92ad1aedf54d004eb90f2ca07f7df11
-      internalID: -1264148099
+      spriteID: b11c504c854e92046bd5eaafef101f5f
+      internalID: 1477483639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_2
+      name: OrangeRobot_SpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 97
-        y: 111
-        width: 30
-        height: 49
+        x: 70
+        y: 127
+        width: 19
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a5c81689e310854ebc52d9442f0d41d
-      internalID: -431205153
+      spriteID: 29bec1d281bb9544691299c205e826ed
+      internalID: 662875132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_3
+      name: OrangeRobot_SpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 131
-        y: 112
-        width: 26
-        height: 46
+        x: 102
+        y: 127
+        width: 19
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a4ca1a0566f2f04f8d2d958956c02b0
-      internalID: -1992824088
+      spriteID: d2ef23c7c4dafc2418be266655f20e62
+      internalID: 1627560853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_4
+      name: OrangeRobot_SpriteSheet_4
       rect:
         serializedVersion: 2
-        x: 163
-        y: 109
-        width: 22
-        height: 49
+        x: 133
+        y: 127
+        width: 20
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 006cfd05f84eeb747a02597726fd5a2e
-      internalID: -1376718474
+      spriteID: eb0775d8824d5db41a73ec9f0cfcc897
+      internalID: 2097543403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_5
+      name: OrangeRobot_SpriteSheet_5
       rect:
         serializedVersion: 2
-        x: 193
-        y: 112
-        width: 30
-        height: 48
+        x: 165
+        y: 129
+        width: 19
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 884a00e80e32e7d4a8e2d3742df6d67e
-      internalID: -409269592
+      spriteID: e2f09d712d11875488e3d6d017d261d2
+      internalID: 100582269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_6
+      name: OrangeRobot_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 127
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d425fa7c2d2c1154094c6dac36c2b6ec
+      internalID: 801637440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 127
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb5d019c025b4a4d8158b4e2ea87ced
+      internalID: 262321011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 97
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73751ac4073500d4eb22696833a271c5
+      internalID: 1098346878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 95
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1ace1a5bbfe2e429ca2961233df1b8
+      internalID: 367503335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 95
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28602e6e4e51075418cb178fb9e7ee23
+      internalID: 1062972832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 96
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b5a340bf373544f82500fd1f7d9513
+      internalID: 1509625857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 97
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64305f35f12b514dab5a34a84eb80b3
+      internalID: 1875762566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 97
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456ae63af11e44a40b5804313ae9d326
+      internalID: -717771584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 96
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478cf199410997c49827e5eb20b42c77
+      internalID: -892284697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_15
       rect:
         serializedVersion: 2
         x: 227
-        y: 112
-        width: 26
-        height: 46
+        y: 96
+        width: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd13144e733cd414a8ba9c38fbc7ee90
-      internalID: -1121734546
+      spriteID: a62a0b0dfbc0c4d45b76af9c274a983b
+      internalID: 1635674606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_7
+      name: OrangeRobot_SpriteSheet_16
       rect:
         serializedVersion: 2
-        x: 259
-        y: 109
+        x: 5
+        y: 63
         width: 22
-        height: 49
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c967d6e9e5d53444bdfb5a3c8fef626
-      internalID: -221005745
+      spriteID: 866bb0ed734c73646953bcd50ce6e73c
+      internalID: -673819551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_8
+      name: OrangeRobot_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 63
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26f84409868db9458a9067947c9d0ed
+      internalID: -2022575408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 63
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cb6a68aa6895e4082caacff1192aa9
+      internalID: -1066177770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 63
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337a23f17ee17bd488f10665b7df919e
+      internalID: 143451427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 63
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cb7740475ed0d4b8874634db896b19
+      internalID: 1891262488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 63
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6348e019f8379964a8b7e60452db490b
+      internalID: -1017232978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 63
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b144ed9e241879408018e75123f72e4
+      internalID: -1614014634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 63
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38edd482766dbdc49ae95af6af37e60c
+      internalID: 1261189807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7577fb37a354efc4bbbc0293144e18b1
+      internalID: -498070481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 32
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c14e2f9272db7846ae600532776c50a
+      internalID: 262196963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 32
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc84c415dc837194d90c848b172e3eab
+      internalID: -1420574678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_27
       rect:
         serializedVersion: 2
         x: 100
-        y: 81
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe92b8b100a17784386f19a0f184919d
-      internalID: -51160981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_9
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 80
-        width: 26
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f31fdbffe47ed74483589da6bc953ea
-      internalID: 2141368309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_10
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 80
-        width: 26
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f62ff4ae8b5f0a40adfc1575eba8674
-      internalID: -1165444014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_11
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 81
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 287fb8733bf8554458876ef8c7ec5e6c
-      internalID: 706267308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_12
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 80
-        width: 26
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5337c1d61f5c8944f80eec4f31288486
-      internalID: 713816464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_13
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 80
-        width: 26
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 660f8ea9f25d0ad4d83d8d0ffeff7f03
-      internalID: 248506607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_14
-      rect:
-        serializedVersion: 2
-        x: 97
         y: 32
-        width: 30
-        height: 48
+        width: 18
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb984dc3f6c5622499b208381d6e6c38
-      internalID: -678653971
+      spriteID: d6b867bdd0a5e3d47af0f5adf4799f50
+      internalID: -550325832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_15
+      name: OrangeRobot_SpriteSheet_28
       rect:
         serializedVersion: 2
-        x: 131
+        x: 132
         y: 32
-        width: 26
-        height: 46
+        width: 19
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a70964a3d7389c54cbc1188983206332
-      internalID: 1281302411
+      spriteID: b9980cfaf88337147bf2cfb6965ccb53
+      internalID: -447396590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_16
+      name: OrangeRobot_SpriteSheet_29
       rect:
         serializedVersion: 2
-        x: 163
-        y: 29
-        width: 22
-        height: 49
+        x: 164
+        y: 31
+        width: 19
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe6e7ebe97db1e647975ece3bdaf6eb3
-      internalID: -1119731558
+      spriteID: 0d3da44b80905de4b93a99705b2e1972
+      internalID: -14750478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_17
+      name: OrangeRobot_SpriteSheet_33
       rect:
         serializedVersion: 2
         x: 193
         y: 32
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba88418e99324943a91349130233ce0
+      internalID: -1105439152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeRobot_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 31
         width: 30
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28679b21a1ed0df489348c0c8d7b4f8f
-      internalID: -923665696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_18
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 32
-        width: 26
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84a1385437a6b8a41a1481754e04c14c
-      internalID: -1094678590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_19
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 29
-        width: 22
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0944e5c89e4e1424cb4c9d83d19b450f
-      internalID: -1164776936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_20
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 1
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a994be59dd0612640b02acc5ff712584
-      internalID: 699443496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_21
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 0
-        width: 26
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74d27d65300c0b34d83b4eab0a4728cc
-      internalID: 1763068689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_22
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 0
-        width: 26
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64b273502d608b5449ac22d500fa1ab5
-      internalID: 2022510808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_23
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 1
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51dbec848c4cf054d97cac391bece8ce
-      internalID: 382234889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_24
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 0
-        width: 26
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3b2664d71f612144acdf9395c016b00
-      internalID: 1691363962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_25
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 0
-        width: 26
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b32b7f6aae1c449458391567e3227342
-      internalID: -893431878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_26
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 80
-        width: 58
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 448382ad44f0f204da91dcc06f6c2087
-      internalID: 1411226959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_DoorsAndWindows_27
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 80
-        width: 31
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bccc46d896ca40141baf8a7793352c9d
-      internalID: 401874410
+      spriteID: 7d73ab0425a643d42ace7c549707d8ff
+      internalID: 782457570
       vertices: []
       indices: 
       edges: []
@@ -713,7 +797,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8cbc58affdae61c409d86b06c8c50d45
+    spriteID: 0578596eb34eba046b371af683cea23e
     internalID: 0
     vertices: []
     indices: 
@@ -721,34 +805,45 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TopDownHouse_DoorsAndWindows_0: -1845214302
-      TopDownHouse_DoorsAndWindows_1: -1264148099
-      TopDownHouse_DoorsAndWindows_10: -1165444014
-      TopDownHouse_DoorsAndWindows_11: 706267308
-      TopDownHouse_DoorsAndWindows_12: 713816464
-      TopDownHouse_DoorsAndWindows_13: 248506607
-      TopDownHouse_DoorsAndWindows_14: -678653971
-      TopDownHouse_DoorsAndWindows_15: 1281302411
-      TopDownHouse_DoorsAndWindows_16: -1119731558
-      TopDownHouse_DoorsAndWindows_17: -923665696
-      TopDownHouse_DoorsAndWindows_18: -1094678590
-      TopDownHouse_DoorsAndWindows_19: -1164776936
-      TopDownHouse_DoorsAndWindows_2: -431205153
-      TopDownHouse_DoorsAndWindows_20: 699443496
-      TopDownHouse_DoorsAndWindows_21: 1763068689
-      TopDownHouse_DoorsAndWindows_22: 2022510808
-      TopDownHouse_DoorsAndWindows_23: 382234889
-      TopDownHouse_DoorsAndWindows_24: 1691363962
-      TopDownHouse_DoorsAndWindows_25: -893431878
-      TopDownHouse_DoorsAndWindows_26: 1411226959
-      TopDownHouse_DoorsAndWindows_27: 401874410
-      TopDownHouse_DoorsAndWindows_3: -1992824088
-      TopDownHouse_DoorsAndWindows_4: -1376718474
-      TopDownHouse_DoorsAndWindows_5: -409269592
-      TopDownHouse_DoorsAndWindows_6: -1121734546
-      TopDownHouse_DoorsAndWindows_7: -221005745
-      TopDownHouse_DoorsAndWindows_8: -51160981
-      TopDownHouse_DoorsAndWindows_9: 2141368309
+      OrangeRobot_SpriteSheet_0: -490754401
+      OrangeRobot_SpriteSheet_1: 1477483639
+      OrangeRobot_SpriteSheet_10: 1062972832
+      OrangeRobot_SpriteSheet_11: 1509625857
+      OrangeRobot_SpriteSheet_12: 1875762566
+      OrangeRobot_SpriteSheet_13: -717771584
+      OrangeRobot_SpriteSheet_14: -892284697
+      OrangeRobot_SpriteSheet_15: 1635674606
+      OrangeRobot_SpriteSheet_16: -673819551
+      OrangeRobot_SpriteSheet_17: -2022575408
+      OrangeRobot_SpriteSheet_18: -1066177770
+      OrangeRobot_SpriteSheet_19: 143451427
+      OrangeRobot_SpriteSheet_2: 662875132
+      OrangeRobot_SpriteSheet_20: 1891262488
+      OrangeRobot_SpriteSheet_21: -1017232978
+      OrangeRobot_SpriteSheet_22: -1614014634
+      OrangeRobot_SpriteSheet_23: 1261189807
+      OrangeRobot_SpriteSheet_24: -498070481
+      OrangeRobot_SpriteSheet_25: 262196963
+      OrangeRobot_SpriteSheet_26: -1420574678
+      OrangeRobot_SpriteSheet_27: -550325832
+      OrangeRobot_SpriteSheet_28: -447396590
+      OrangeRobot_SpriteSheet_29: -14750478
+      OrangeRobot_SpriteSheet_3: 1627560853
+      OrangeRobot_SpriteSheet_30: -829152022
+      OrangeRobot_SpriteSheet_31: -270440318
+      OrangeRobot_SpriteSheet_32: 1609190248
+      OrangeRobot_SpriteSheet_33: -1105439152
+      OrangeRobot_SpriteSheet_34: 1193993384
+      OrangeRobot_SpriteSheet_35: -1681897883
+      OrangeRobot_SpriteSheet_36: 782457570
+      OrangeRobot_SpriteSheet_37: -19028246
+      OrangeRobot_SpriteSheet_38: 910387898
+      OrangeRobot_SpriteSheet_4: 2097543403
+      OrangeRobot_SpriteSheet_5: 100582269
+      OrangeRobot_SpriteSheet_6: 801637440
+      OrangeRobot_SpriteSheet_7: 262321011
+      OrangeRobot_SpriteSheet_8: 1098346878
+      OrangeRobot_SpriteSheet_9: 367503335
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
