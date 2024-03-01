@@ -35,4 +35,10 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    public void ExitToDesktop()
+    {
+        Debug.Log("Goodbye");
+        Application.Quit();
+    }
 }

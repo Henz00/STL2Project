@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: c4642946efa57aa41ada481eb9529b29
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/HauntedHouse.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/DesertedIsland.unity
+    guid: 79e53e25edbc11346a4d18431f6428a4
   m_configObjects: {}
