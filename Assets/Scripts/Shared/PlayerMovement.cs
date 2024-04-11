@@ -4,19 +4,38 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private float movementSpeed = 10;
+    public float movementSpeed = 1f;
+    public Rigidbody2D rb;
+    public Animator animator;
 
-    float xAxis;
-    float yAxis;
+    Vector2 movement;
+
+    //float xAxis;
+    //float yAxis;
 
     // Update is called once per frame
+    //void Update()
+    //{
+      //  xAxis = Input.GetAxisRaw("Horizontal");
+      //  yAxis = Input.GetAxisRaw("Vertical");
+
+      //  Vector3 movement = new Vector3(xAxis * movementSpeed, yAxis * movementSpeed, 0);
+      //  movement *= Time.deltaTime*10;
+      //  transform.Translate(movement);
+    //}
+
     void Update()
     {
-        xAxis = Input.GetAxisRaw("Horizontal");
-        yAxis = Input.GetAxisRaw("Vertical");
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-        Vector3 movement = new Vector3(xAxis * movementSpeed, yAxis * movementSpeed, 0);
-        movement *= Time.deltaTime*10;
-        transform.Translate(movement);
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+    }
+
+    void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
     }
 }
