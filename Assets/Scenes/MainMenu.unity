@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 50694846}
   - component: {fileID: 50694845}
   m_Layer: 5
-  m_Name: DesertedIslandScene
+  m_Name: HauntedHouseRoomTwoScene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -215,7 +215,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: DesertedIsland
+          m_StringArgument: HauntedHouse Room2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &50694846
@@ -640,7 +640,7 @@ GameObject:
   - component: {fileID: 354244937}
   - component: {fileID: 354244936}
   m_Layer: 5
-  m_Name: HauntedHouseScene
+  m_Name: HauntedHouseRoomOneScene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -950,7 +950,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Deserted Island
+  m_text: Haunted House - Room Two
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1432,7 +1432,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Haunted House
+  m_text: Haunted House - Room One
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
