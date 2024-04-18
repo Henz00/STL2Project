@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: c4642946efa57aa41ada481eb9529b29
   - enabled: 1
-    path: Assets/Scenes/HauntedHouse.unity
+    path: Assets/Scenes/Lounge.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/HauntedHouse Room2.unity
+    path: Assets/Scenes/LivingRoom.unity
     guid: 48f8ec271099cea4d890ee08d4115188
   m_configObjects: {}
