@@ -4865,6 +4865,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2475838918154162078, guid: 9a06f7a25d58f9241a038c15195c5a64, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2475838918154162078, guid: 9a06f7a25d58f9241a038c15195c5a64, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2475838918154162078, guid: 9a06f7a25d58f9241a038c15195c5a64, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2475838918154162078, guid: 9a06f7a25d58f9241a038c15195c5a64, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2475838918154162078, guid: 9a06f7a25d58f9241a038c15195c5a64, type: 3}
+      propertyPath: m_projectionMatrixMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2475838918154162078, guid: 9a06f7a25d58f9241a038c15195c5a64, type: 3}
+      propertyPath: m_AllowDynamicResolution
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7752413210898482091, guid: 9a06f7a25d58f9241a038c15195c5a64, type: 3}
       propertyPath: m_Name
       value: Main Camera
