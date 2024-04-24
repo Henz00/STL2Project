@@ -9,16 +9,19 @@ public class PauseMenu : MonoBehaviour
     GameObject FrontMenu;
     GameObject ExitMenu;
     GameObject MenuButtonsHolder;
+    GameObject InputField;
 
     void Awake()
     {
         FrontMenu = GameObject.Find("FrontMenu");
         ExitMenu = GameObject.Find("ExitMenu");
         MenuButtonsHolder = GameObject.Find("MenuButtonsHolder");
+        InputField = GameObject.Find("PuzzleInput");
     }
     void Start()
     {
         MenuButtonsHolder.SetActive(false);
+        InputField.SetActive(false);
     }
 
     void Update()
