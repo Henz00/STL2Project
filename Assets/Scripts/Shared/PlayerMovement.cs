@@ -35,7 +35,6 @@ public class PlayerMovement : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit, interactionRange))
         {
-            // Check if the hit object can be interacted with
             Interactable interactable = hit.collider.GetComponent<Interactable>();
             if (interactable != null && interactable.CanInteract())
             {
