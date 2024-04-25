@@ -6437,6 +6437,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755090037}
   m_CullTransparentMesh: 1
+--- !u!1 &1757140133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 404161583912151953, guid: 96143e65b9b836047adb461c48568184, type: 3}
+  m_PrefabInstance: {fileID: 1354565582435243107}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1757140141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757140133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9e4654d467f984b808efef52750fb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useKey: 32
 --- !u!1 &1884022826
 GameObject:
   m_ObjectHideFlags: 0
@@ -6588,7 +6606,7 @@ GameObject:
   - component: {fileID: 1916035493}
   m_Layer: 0
   m_Name: Dresser
-  m_TagString: Untagged
+  m_TagString: ObjectToActivate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7886,7 +7904,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 404161583912151953, guid: 96143e65b9b836047adb461c48568184, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1757140141}
   m_SourcePrefab: {fileID: 100100000, guid: 96143e65b9b836047adb461c48568184, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
