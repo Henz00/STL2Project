@@ -30,10 +30,10 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
     }
-        void TryInteract()
+    void TryInteract()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, interactionRange))
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.right, interactionRange);
+        if (hit.collider != null)
         {
             Interactable interactable = hit.collider.GetComponent<Interactable>();
             if (interactable != null && interactable.CanInteract())
