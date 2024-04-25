@@ -2,17 +2,37 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-    public bool canActivate = true;
+    public KeyCode useKey = KeyCode.E;
+    public GameObject objectToActivate;
 
-    public bool CanInteract()
+    void Update()
     {
-        // Add any conditions for interaction here (e.g., player has a key)
-        return canActivate;
+        if (Input.GetKeyDown(useKey))
+        {
+            ActivateObject();
+        }
+    }
+    void ActivateObject()
+    {
+        if (objectToActivate != null && objectToActivate.activeSelf)
+        {
+            objectToActivate.SetActive(true);
+
+        }
     }
 
-    public void Interact()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Object activated!");
-        gameObject.SetActive(true);
+        if (other.CompareTag("Player"))
+        {
+            objectToActivate.SetActive(true);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+        }
     }
 }

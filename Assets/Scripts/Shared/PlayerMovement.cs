@@ -7,8 +7,8 @@ public class PlayerMovement : MonoBehaviour
     public float movementSpeed = 1f;
     public Rigidbody2D rb;
     public Animator animator;
-    public KeyCode useKey = KeyCode.E;
-    public float interactionRange = 3f;
+    //public KeyCode useKey = KeyCode.E;
+   // public float interactionRange = 3f;
     Vector2 movement;
 
     void Update()
@@ -16,10 +16,10 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         
-        if (Input.GetKeyDown(useKey))
+        /*if (Input.GetKeyDown(useKey))
         {
             TryInteract();
-        }
+        }*/
         
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
     }
-    void TryInteract()
+    /*void TryInteract()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.right, interactionRange);
         if (hit.collider != null)
@@ -41,5 +41,5 @@ public class PlayerMovement : MonoBehaviour
                 interactable.Interact();
             }
         }
-    }
+    }*/
 }
