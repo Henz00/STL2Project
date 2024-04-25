@@ -10,6 +10,9 @@ public class PauseMenu : MonoBehaviour
     GameObject ExitMenu;
     GameObject MenuButtonsHolder;
     GameObject InputField;
+    GameObject player;
+
+    public bool openUI;
 
     void Awake()
     {
@@ -17,16 +20,18 @@ public class PauseMenu : MonoBehaviour
         ExitMenu = GameObject.Find("ExitMenu");
         MenuButtonsHolder = GameObject.Find("MenuButtonsHolder");
         InputField = GameObject.Find("PuzzleInput");
+        player = GameObject.Find("Player");
     }
     void Start()
     {
         MenuButtonsHolder.SetActive(false);
         InputField.SetActive(false);
+        openUI = false;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !openUI)
         {
             OpenMenu();
         }
@@ -36,12 +41,14 @@ public class PauseMenu : MonoBehaviour
     {
         if (!MenuButtonsHolder.activeSelf)
         {
+            player.GetComponent<PlayerMovement>().enabled = false;
             FrontMenu.SetActive(true);
             ExitMenu.SetActive(false);
             MenuButtonsHolder.SetActive(true);
         }
         else
         {
+            player.GetComponent<PlayerMovement>().enabled = true;
             FrontMenu.SetActive(false);
             MenuButtonsHolder.SetActive(false);
         }

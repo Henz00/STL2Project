@@ -4,23 +4,44 @@ using UnityEngine;
 
 public class DresserPuzzle : MonoBehaviour
 {
-    GameObject InputField;
+    GameObject inputField;
+    GameObject player;
+    PauseMenu PauseMenu;
+    private bool insideCollider;
 
     void Awake()
     {
-        InputField = GameObject.Find("PuzzleInput");
+        inputField = GameObject.Find("PuzzleInput");
+        player = GameObject.Find("Player");
+        PauseMenu = GameObject.Find("GameManager").GetComponent<PauseMenu>();
     }
 
-    
-    private void OnCollisionStay2D(Collision2D collision)
+    void Update()
     {
-        if(collision.collider.gameObject.name == "Player")
+        if(insideCollider)
         {
-            if(Input.GetKeyDown(KeyCode.E)) 
+            if (Input.GetKeyDown(KeyCode.E) && !inputField.activeSelf)
             {
-                InputField.SetActive(true);
-                Debug.Log("It works");
+                player.GetComponent<PlayerMovement>().enabled = false;
+                PauseMenu.openUI = true;
+                inputField.SetActive(true);
+            }
+            else if (Input.GetKeyDown(KeyCode.Escape) && inputField.activeSelf)
+            {
+                player.GetComponent<PlayerMovement>().enabled = true;
+                PauseMenu.openUI = false;
+                inputField.SetActive(false);
             }
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        insideCollider = true;
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        insideCollider = false;
     }
 }
