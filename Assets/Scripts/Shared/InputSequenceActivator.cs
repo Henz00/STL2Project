@@ -1,16 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class InputSequenceActivator : MonoBehaviour
 {
     public string[] inputSequence;
-    private int currentIndex = 0; 
+    private int currentIndex = 0;
+    public List<AudioClip> clips = new List<AudioClip>();
 
     public GameObject objectToActivate;
     AudioSource onCorrectInput;
+    AudioSource onWrongInput;
 
     private void Awake()
     {
         onCorrectInput = GameObject.Find("OnCorrectInput").GetComponent<AudioSource>();
+        onWrongInput = GameObject.Find("OnWrongInput").GetComponent<AudioSource>();
     }
 
     void Update()
@@ -24,12 +29,6 @@ public class InputSequenceActivator : MonoBehaviour
 
                 currentIndex++;
                 onCorrectInput.Play();
-
-                char input = 'c';
-                if (input.GetType() == typeof(string))
-                {
-
-                }
 
                 if (currentIndex >= inputSequence.Length)
                 {
@@ -45,6 +44,7 @@ public class InputSequenceActivator : MonoBehaviour
             else
             {
                 currentIndex = 0;
+                onWrongInput.Play();
             }
         }
     }
