@@ -5,7 +5,13 @@ public class InputSequenceActivator : MonoBehaviour
     public string[] inputSequence;
     private int currentIndex = 0; 
 
-    public GameObject objectToActivate; 
+    public GameObject objectToActivate;
+    AudioSource onCorrectInput;
+
+    private void Awake()
+    {
+        onCorrectInput = GameObject.Find("OnCorrectInput").GetComponent<AudioSource>();
+    }
 
     void Update()
     {
@@ -17,7 +23,13 @@ public class InputSequenceActivator : MonoBehaviour
             {
 
                 currentIndex++;
+                onCorrectInput.Play();
 
+                char input = 'c';
+                if (input.GetType() == typeof(string))
+                {
+
+                }
 
                 if (currentIndex >= inputSequence.Length)
                 {

@@ -8803,6 +8803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb3f1607ca38592418e6421617be4db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openUI: 0
 --- !u!4 &1218090167
 Transform:
   m_ObjectHideFlags: 0
@@ -9042,6 +9043,7 @@ MonoBehaviour:
   - p
   - e
   - n
+  - space
   - s
   - e
   - s

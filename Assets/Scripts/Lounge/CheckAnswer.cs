@@ -13,14 +13,14 @@ public class CheckAnswer : MonoBehaviour
     {
         input = GameObject.Find("PuzzleInput").GetComponent<TMP_InputField>();
         input.onEndEdit.AddListener(OnInputEnter);
-        answer = "case";
+        answer = "if";
     }
 
     public void OnInputEnter(string text)
     {
         if(text.ToLower() == answer)
         {
-            Debug.Log("It works");
+            Debug.Log("The doors are unlocked");
         }
     }
 }

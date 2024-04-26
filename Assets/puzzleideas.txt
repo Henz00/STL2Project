@@ -1,0 +1,17 @@
+
+
+______("Print the code " + clue)
+
+
+if (____ == typeof(number))
+
+
+
+string userinput = "hello";
+if (userinput.______ == 5)
+
+_____ clue = "hidden";
+
+if(clue.GetType() == typeof(string)){
+	System.Writeline(clue.decoded);
+}
