@@ -16,20 +16,4 @@ public class ObjectActivator : MonoBehaviour
             }
         }
     }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("ObjectToUse"))
-        {
-            objectToActivate = other.GetComponent<ObjectToActivate>().targetObject;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("ObjectToUse"))
-        {
-            objectToActivate = null;
-        }
-    }
 }

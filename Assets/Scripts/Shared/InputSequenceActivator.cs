@@ -41,7 +41,7 @@ public class InputSequenceActivator : MonoBehaviour
                     }
                 }
             }
-            else
+            else if(currentIndex > 0)
             {
                 currentIndex = 0;
                 onWrongInput.Play();
