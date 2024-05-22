@@ -21,7 +21,7 @@ public class BookshelfPuzzle : MonoBehaviour
         puzzleText = GameObject.Find("PuzzleText").GetComponent<TMP_Text>();
         insideCollider = false;
         input = GameObject.Find("PuzzleInput").GetComponent<TMP_InputField>();
-        answer = "string";
+        answer = "//";
     }
 
     void Update()
@@ -34,7 +34,7 @@ public class BookshelfPuzzle : MonoBehaviour
                 player.GetComponent<PlayerMovement>().enabled = false;
                 PauseMenu.openUI = true;
                 inputField.SetActive(true);
-                puzzleText.text = "_____ clue = \"hidden\";\r\n\r\nif(clue.GetType() == typeof(string)){\r\n\tSystem.Writeline(clue.decoded);\r\n}";
+                puzzleText.text = "__ Comment this out to run the code\r\nif(!commented){\r\n\tConsole.WriteLine(\"next clue\");\r\n}";
             }
             else if (Input.GetKeyDown(KeyCode.Escape) && inputField.activeSelf)
             {
@@ -51,7 +51,7 @@ public class BookshelfPuzzle : MonoBehaviour
         if (text.ToLower() == answer)
         {
             Debug.Log("\"Listen to the sounds of the piano, the music guides the way\"");
-            puzzleText.text = "string clue = \"hidden\";\r\n\r\nif(clue.GetType() == typeof(string)){\r\n\tSystem.Writeline(clue.decoded);\r\n}";
+            puzzleText.text = "// Comment this out to run the code\r\nif(!commented){\r\n\tConsole.WriteLine(\"next clue\");\r\n}";
             //Implement final solution here
         }
         input.onEndEdit.RemoveAllListeners();

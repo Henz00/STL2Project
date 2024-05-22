@@ -21,7 +21,7 @@ public class ClockPuzzle : MonoBehaviour
         puzzleText = GameObject.Find("PuzzleText").GetComponent<TMP_Text>();
         insideCollider = false;
         input = GameObject.Find("PuzzleInput").GetComponent<TMP_InputField>();
-        answer = "length";
+        answer = "(int)";
     }
 
     void Update()
@@ -34,7 +34,7 @@ public class ClockPuzzle : MonoBehaviour
                 player.GetComponent<PlayerMovement>().enabled = false;
                 PauseMenu.openUI = true;
                 inputField.SetActive(true);
-                puzzleText.text = "string userinput = \"hello\";\r\nif (userinput.______ == 5)";
+                puzzleText.text = "double x = 5.8;\r\nint y = 6;\r\n\r\nConsole.WriteLine(_____x+y + \\\" inputs long\\\");";
             }
             else if (Input.GetKeyDown(KeyCode.Escape) && inputField.activeSelf)
             {
@@ -51,7 +51,7 @@ public class ClockPuzzle : MonoBehaviour
         if (text.ToLower() == answer)
         {
             Debug.Log("Open");
-            puzzleText.text = "string userinput = \"hello\";\r\nif (userinput.Length == 5)";
+            puzzleText.text = "double x = 5.8;\r\nint y = 6;\r\n\r\nConsole.WriteLine((int)x+y + \\\" inputs long\\\");";
             //Implement final solution here
         }
         input.onEndEdit.RemoveAllListeners();

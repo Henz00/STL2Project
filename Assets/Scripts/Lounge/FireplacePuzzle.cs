@@ -21,7 +21,7 @@ public class FireplacePuzzle : MonoBehaviour
         puzzleText = GameObject.Find("PuzzleText").GetComponent<TMP_Text>();
         insideCollider = false;
         input = GameObject.Find("PuzzleInput").GetComponent<TMP_InputField>();
-        answer = "length";
+        answer = "string";
     }
 
     void Update()
@@ -34,7 +34,7 @@ public class FireplacePuzzle : MonoBehaviour
                 player.GetComponent<PlayerMovement>().enabled = false;
                 PauseMenu.openUI = true;
                 inputField.SetActive(true);
-                puzzleText.text = "string userinput = \"hello\";\r\nif (userinput.______ == 5)";
+                puzzleText.text = "_____ clue = \\\"hidden\\\";\r\n\r\nif(clue.GetType() == typeof(string)){\r\n\tConsole.Writeline(clue.decoded);\r\n}";
             }
             else if (Input.GetKeyDown(KeyCode.Escape) && inputField.activeSelf)
             {
@@ -51,7 +51,7 @@ public class FireplacePuzzle : MonoBehaviour
         if (text.ToLower() == answer)
         {
             Debug.Log("Open");
-            puzzleText.text = "string userinput = \"hello\";\r\nif (userinput.Length == 5)";
+            puzzleText.text = "string clue = \\\"hidden\\\";\r\n\r\nif(clue.GetType() == typeof(string)){\r\n\tConsole.Writeline(clue.decoded);\r\n}";
             //Implement final solution here
         }
         input.onEndEdit.RemoveAllListeners();
