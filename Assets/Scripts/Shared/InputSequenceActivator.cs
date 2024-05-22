@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InputSequenceActivator : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class InputSequenceActivator : MonoBehaviour
     public List<AudioClip> clips = new List<AudioClip>();
 
     public GameObject objectToActivate;
+    private GameObject escapeDoor;
     AudioSource onCorrectInput;
     AudioSource onWrongInput;
 
@@ -16,6 +18,8 @@ public class InputSequenceActivator : MonoBehaviour
     {
         onCorrectInput = GameObject.Find("OnCorrectInput").GetComponent<AudioSource>();
         onWrongInput = GameObject.Find("OnWrongInput").GetComponent<AudioSource>();
+        escapeDoor = GameObject.Find("OpenDoor");
+        escapeDoor.SetActive(false);
     }
 
     void Update()
@@ -34,6 +38,7 @@ public class InputSequenceActivator : MonoBehaviour
                 {
 
                     currentIndex = 0;
+                    escapeDoor.SetActive(true);
 
                     if (objectToActivate != null)
                     {
