@@ -18,8 +18,11 @@ public class InputSequenceActivator : MonoBehaviour
     {
         onCorrectInput = GameObject.Find("OnCorrectInput").GetComponent<AudioSource>();
         onWrongInput = GameObject.Find("OnWrongInput").GetComponent<AudioSource>();
-        escapeDoor = GameObject.Find("OpenDoor");
-        escapeDoor.SetActive(false);
+        if(SceneManager.GetActiveScene().name == "LivingRoom")
+        {
+            escapeDoor = GameObject.Find("OpenDoor");
+            escapeDoor.SetActive(false);
+        }
     }
 
     void Update()
@@ -38,7 +41,8 @@ public class InputSequenceActivator : MonoBehaviour
                 {
 
                     currentIndex = 0;
-                    escapeDoor.SetActive(true);
+                    if (SceneManager.GetActiveScene().name == "LivingRoom")
+                        escapeDoor.SetActive(true);
 
                     if (objectToActivate != null)
                     {

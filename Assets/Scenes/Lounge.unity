@@ -4704,7 +4704,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7687,6 +7687,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1218090166}
+    - target: {fileID: 4773290273776654310, guid: 958f4cdb2cc9ff046908e542231a4530, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5006508157534106533, guid: 958f4cdb2cc9ff046908e542231a4530, type: 3}
       propertyPath: m_Name
       value: GameUI
@@ -7778,6 +7782,14 @@ PrefabInstance:
     - target: {fileID: 7108558557957061758, guid: 958f4cdb2cc9ff046908e542231a4530, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8147171338772094758, guid: 958f4cdb2cc9ff046908e542231a4530, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352372104110894530, guid: 958f4cdb2cc9ff046908e542231a4530, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
