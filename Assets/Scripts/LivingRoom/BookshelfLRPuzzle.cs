@@ -8,6 +8,7 @@ public class BookshelfLRPuzzle : MonoBehaviour
 {
     GameObject inputField;
     GameObject player;
+    GameObject livingRoomBookshelf;
     PauseMenu PauseMenu;
     private bool insideCollider;
     TMP_Text puzzleText;
@@ -22,9 +23,13 @@ public class BookshelfLRPuzzle : MonoBehaviour
         puzzleText = GameObject.Find("PuzzleText").GetComponent<TMP_Text>();
         insideCollider = false;
         input = GameObject.Find("PuzzleInput").GetComponent<TMP_InputField>();
+        livingRoomBookshelf = GameObject.Find("LivingRoomBookshelfClue");
         answer = "int";
     }
-
+    void Start()
+    {
+        livingRoomBookshelf.SetActive(false);
+    }
     void Update()
     {
         if (insideCollider)
@@ -51,9 +56,9 @@ public class BookshelfLRPuzzle : MonoBehaviour
     {
         if (text.ToLower() == answer)
         {
-            Debug.Log("Use this clue as the sound of progress");
             puzzleText.text = "int x = 11;\r\n\r\nConsole.WriteLine(\"Remember this number: \" + x);";
-            //Implement final solution here
+            livingRoomBookshelf.SetActive(true);
+            livingRoomBookshelf.GetComponent<TMP_Text>().text = "Use this clue as the sound of progress";
         }
         input.onEndEdit.RemoveAllListeners();
     }

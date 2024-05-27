@@ -7,6 +7,7 @@ public class FireplacePuzzle : MonoBehaviour
 {
     GameObject inputField;
     GameObject player;
+    GameObject Fireplace;
     PauseMenu PauseMenu;
     private bool insideCollider;
     TMP_Text puzzleText;
@@ -21,6 +22,7 @@ public class FireplacePuzzle : MonoBehaviour
         puzzleText = GameObject.Find("PuzzleText").GetComponent<TMP_Text>();
         insideCollider = false;
         input = GameObject.Find("PuzzleInput").GetComponent<TMP_InputField>();
+        Fireplace = GameObject.Find("FireplaceClue");
         answer = "string";
     }
 
@@ -46,13 +48,17 @@ public class FireplacePuzzle : MonoBehaviour
             }
         }
     }
+    void Start()
+    {
+        Fireplace.SetActive(false);
+    }
     public void OnInputEnter(string text)
     {
         if (text.ToLower() == answer)
         {
-            Debug.Log("Open");
             puzzleText.text = "string clue = \\\"hidden\\\";\r\n\r\nif(clue.GetType() == typeof(string)){\r\n\tConsole.Writeline(clue.decoded);\r\n}";
-            //Implement final solution here
+            Fireplace.SetActive(true);
+            Fireplace.GetComponent<TMP_Text>().text = "Sesame";
         }
         input.onEndEdit.RemoveAllListeners();
     }

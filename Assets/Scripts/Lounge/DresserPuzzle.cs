@@ -7,6 +7,7 @@ public class DresserPuzzle : MonoBehaviour
 {
     GameObject inputField;
     GameObject player;
+    GameObject Dresser;
     PauseMenu PauseMenu;
     private bool insideCollider;
     TMP_Text puzzleText;
@@ -21,9 +22,13 @@ public class DresserPuzzle : MonoBehaviour
         puzzleText = GameObject.Find("PuzzleText").GetComponent<TMP_Text>();
         insideCollider = false;
         input = GameObject.Find("PuzzleInput").GetComponent<TMP_InputField>();
+        Dresser = GameObject.Find("DresserClue");
         answer = "if";
     }
-
+    void Start()
+    {
+        Dresser.SetActive(false);
+    }
     void Update()
     {
         if(insideCollider)
@@ -51,9 +56,10 @@ public class DresserPuzzle : MonoBehaviour
     {
         if (text.ToLower() == answer)
         {
-            Debug.Log("Sesame");
             puzzleText.text = "if(escape && HaveKey){\r\n\tOpenDoors();\r\n}";
-            //Implement final solution here
+            Dresser.SetActive(true);
+            Dresser.GetComponent<TMP_Text>().text = "Open";
+
         }
         input.onEndEdit.RemoveAllListeners();
     }

@@ -7,6 +7,7 @@ public class BookshelfPuzzle : MonoBehaviour
 {
     GameObject inputField;
     GameObject player;
+    GameObject loungeBookshelf;
     PauseMenu PauseMenu;
     private bool insideCollider;
     TMP_Text puzzleText;
@@ -21,7 +22,13 @@ public class BookshelfPuzzle : MonoBehaviour
         puzzleText = GameObject.Find("PuzzleText").GetComponent<TMP_Text>();
         insideCollider = false;
         input = GameObject.Find("PuzzleInput").GetComponent<TMP_InputField>();
+        loungeBookshelf = GameObject.Find("LoungeBookshelfClue");
         answer = "//";
+    }
+
+    void Start()
+    {
+        loungeBookshelf.SetActive(false);
     }
 
     void Update()
@@ -50,9 +57,9 @@ public class BookshelfPuzzle : MonoBehaviour
     {
         if (text.ToLower() == answer)
         {
-            Debug.Log("\"Listen to the sounds of the piano, the music guides the way\"");
             puzzleText.text = "// Comment this out to run the code\r\nif(!commented){\r\n\tConsole.WriteLine(\"next clue\");\r\n}";
-            //Implement final solution here
+            loungeBookshelf.SetActive(true);
+            loungeBookshelf.GetComponent<TMP_Text>().text = "Listen to the sounds of the piano,\n the music guides the way";
         }
         input.onEndEdit.RemoveAllListeners();
     }

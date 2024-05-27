@@ -7,6 +7,7 @@ public class ClockPuzzle : MonoBehaviour
 {
     GameObject inputField;
     GameObject player;
+    GameObject clock;
     PauseMenu PauseMenu;
     private bool insideCollider;
     TMP_Text puzzleText;
@@ -21,7 +22,13 @@ public class ClockPuzzle : MonoBehaviour
         puzzleText = GameObject.Find("PuzzleText").GetComponent<TMP_Text>();
         insideCollider = false;
         input = GameObject.Find("PuzzleInput").GetComponent<TMP_InputField>();
+        clock = GameObject.Find("ClockClue");
         answer = "(int)";
+    }
+
+    void Start()
+    {
+        clock.SetActive(false);
     }
 
     void Update()
@@ -50,9 +57,9 @@ public class ClockPuzzle : MonoBehaviour
     {
         if (text.ToLower() == answer)
         {
-            Debug.Log("Open");
             puzzleText.text = "double x = 5.8;\r\nint y = 6;\r\n\r\nConsole.WriteLine((int)x+y + \\\" inputs long\\\");";
-            //Implement final solution here
+            clock.SetActive(true);
+            clock.GetComponent<TMP_Text>().text = "Open";
         }
         input.onEndEdit.RemoveAllListeners();
     }

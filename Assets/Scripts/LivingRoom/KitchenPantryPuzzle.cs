@@ -7,6 +7,7 @@ public class KitchenPantryPuzzle : MonoBehaviour
 {
     GameObject inputField;
     GameObject player;
+    GameObject pantry;
     PauseMenu PauseMenu;
     private bool insideCollider;
     TMP_Text puzzleText;
@@ -21,7 +22,13 @@ public class KitchenPantryPuzzle : MonoBehaviour
         puzzleText = GameObject.Find("PuzzleText").GetComponent<TMP_Text>();
         insideCollider = false;
         input = GameObject.Find("PuzzleInput").GetComponent<TMP_InputField>();
+        pantry = GameObject.Find("KitchenPantryClue");
         answer = "length";
+    }
+
+    void Start()
+    {
+        pantry.SetActive(false);
     }
 
     void Update()
@@ -50,9 +57,9 @@ public class KitchenPantryPuzzle : MonoBehaviour
     {
         if (text.ToLower() == answer)
         {
-            Debug.Log("Open");
             puzzleText.text = "string userinput = \"hello\";\r\nif (userinput.Length == 5)";
-            //Implement final solution here
+            pantry.SetActive(true);
+            pantry.GetComponent<TMP_Text>().text = "Sesame";
         }
         input.onEndEdit.RemoveAllListeners();
     }
