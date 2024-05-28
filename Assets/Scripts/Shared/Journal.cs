@@ -11,14 +11,18 @@ public class Journal : MonoBehaviour
     GameObject rightPage;
     bool isKeyDown = false;
     int start;
-    string[] journal_data =
+    readonly string[] journal_data =
     {
-        "Data types",
-        "IF statement\n\nUse the if statement to specify a block of C# code to be executed if a condition is True.",
-        "Console\n\n The console is a helpful tool to make your program tell you something",
-
+        "Coding/programming\n\nIn coding, programs generally reads from the top to the bottom. Therefore, try to think about the program in steps",
+        "Console\n\n The console is a helpful tool to make your program tell you something. You'll see multiple times that we're \"writing\" in the console, which just means that were asking the program to print something out for us",
+        "Comments\n\nIt's possible to write comments in your code by typing in \"//\", followed by whatever necessary comment in text. Used to help with documentation, note-taking, etc.",
+        "Data types\n\nIn coding, like with anything, saving stuff is good. Here we save stuff by telling the computer what type of stuff we're saving, e.g. a number (called a float), a whole number only (called an int), text (called a string), true or false (called a bool), etc.",
+        "IF statement\n\nUse the if statement to specify a block of C# code to be executed if a condition is True. The condition is written inside the normal parantheses brackets, and the stuff you want to run is written inside the curly brackets",
+        "Methods\n\nMethods are essentially tasks you can ask the program to do, and it's usually written after picking an object (writing the name) and then typing in a \".\" dot. For instance, you can use the \".Length\" method to find out how long a string is.",
+        "Type casting\n\nA more advanced technique, used to make one type of data (remember data types) into another data type. For instance, you can cast a float type to an int type by writing \"(int)\" in front of the float"
 
     };
+
     void Awake()
     {
         journal = GameObject.Find("Journal");

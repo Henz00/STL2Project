@@ -36,7 +36,7 @@ public class FireplacePuzzle : MonoBehaviour
                 player.GetComponent<PlayerMovement>().enabled = false;
                 PauseMenu.openUI = true;
                 inputField.SetActive(true);
-                puzzleText.text = "_____ clue = \\\"hidden\\\";\r\n\r\nif(clue.GetType() == typeof(string)){\r\n\tConsole.Writeline(clue.decoded);\r\n}";
+                puzzleText.text = "_____ clue = \"hidden\";\r\n\r\nif(clue.GetType() == typeof(string)){\r\n\tConsole.Writeline(clue.decoded);\r\n}";
             }
             else if (Input.GetKeyDown(KeyCode.Escape) && inputField.activeSelf)
             {
@@ -56,7 +56,7 @@ public class FireplacePuzzle : MonoBehaviour
     {
         if (text.ToLower() == answer)
         {
-            puzzleText.text = "string clue = \\\"hidden\\\";\r\n\r\nif(clue.GetType() == typeof(string)){\r\n\tConsole.Writeline(clue.decoded);\r\n}";
+            puzzleText.text = "string clue = \"hidden\";\r\n\r\nif(clue.GetType() == typeof(string)){\r\n\tConsole.Writeline(clue.decoded);\r\n}";
             Fireplace.SetActive(true);
             Fireplace.GetComponent<TMP_Text>().text = "Sesame";
         }
